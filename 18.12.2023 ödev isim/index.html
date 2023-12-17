@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Samira Kılıç</title>
+</head>
+
+<body>
+    <button onclick="isim()">Adınız!</button>
+    <p id="isminiz"></p>
+
+    <script>
+        function isim() {
+            let isim = prompt("İsminizi giriniz", "");
+            document.getElementById("isminiz").innerHTML = "Merhaba " + isim;
+        }
+    </script>
+</body>
+
+</html>
